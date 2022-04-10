@@ -1,0 +1,57 @@
+/*heres a comment*/
+html {
+ font-size: 100%;
+ background-color: #2e2c33;
+ color: #ffffff;
+}
+
+body{
+  padding: 0;
+  margin:0;
+  font-family: monospace, sans-serif;
+}
+
+header{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: left;
+  padding-bottom: 5em;
+}
+header img{
+
+}
+
+#main{
+  background-color: #3D3B44;
+  margin: 1em 1em 1em 1em;
+  padding: 2em 3em 2em 3em;
+  border-radius: 50px;
+}
+
+.menu{
+  display: grid;
+  margin: 5em 1em 1em 1em ;
+
+}
+
+#button1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-radius: 50px;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+
+#button2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-radius: 50px;
+  justify-items: center;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: end;
+  padding: 1em 2em 0em 1em;
+}
