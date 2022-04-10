@@ -1,7 +1,7 @@
 /*heres a comment*/
 html {
  font-size: 100%;
- background-color: #2e2c33;
+ background-color: #2D2C33;
  color: #ffffff;
 }
 
@@ -17,21 +17,56 @@ header{
   justify-items: left;
   padding-bottom: 5em;
 }
-header img{
-
-}
 
 #main{
   background-color: #3D3B44;
-  margin: 1em 1em 1em 1em;
+  margin: 1em 3em 1em 3em;
   padding: 2em 3em 2em 3em;
   border-radius: 50px;
+}
+
+#education{
+    background-color: #3D3B44;
+    margin: 1em 3em 1em 3em;
+    padding: 2em 3em 2em 3em;
+    border-radius: 50px;
+}
+
+#certs{
+    background-color: #3D3B44;
+    margin: 1em 3em 1em 3em;
+    padding: 2em 3em 2em 3em;
+    border-radius: 50px;
+}
+
+#work{
+    background-color: #3D3B44;
+    margin: 1em 3em 1em 3em;
+    padding: 2em 3em 2em 3em;
+    border-radius: 50px;
+}
+
+
+.github{
+  display: flex;
+  margin: 1em 3em 1em 3em;
+  padding: 2em 3em 2em 3em;
+  border-radius: 50px;
+  justify-content: center;
+
+}
+
+.linked_in{
+  display: flex;
+  margin: 1em 3em 1em 3em;
+  padding: 2em 3em 2em 3em;
+  border-radius: 50px;
+  justify-content: center;
 }
 
 .menu{
   display: grid;
   margin: 5em 1em 1em 1em ;
-
 }
 
 #button1{
@@ -39,7 +74,11 @@ header img{
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   border-radius: 50px;
   justify-items: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+figcaption{
+justify-content: center;
+padding-left: 15px;
 }
 
 #button2{
