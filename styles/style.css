@@ -76,9 +76,9 @@ header{
   justify-items: center;
   margin-bottom: 50px;
 }
-figcaption{
-justify-content: center;
-padding-left: 15px;
+  figcaption{
+  justify-content: center;
+  padding-left: 15px;
 }
 
 #button2{
