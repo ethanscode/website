@@ -88,6 +88,12 @@ header{
   justify-items: center;
 }
 
+#home_button{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-radius: 50px;
+  justify-items: center;
+}
 footer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
