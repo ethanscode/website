@@ -46,6 +46,14 @@ header{
     border-radius: 50px;
 }
 
+#email{
+    display: flex;
+    background-color: #3D3B44;
+    margin: 1em 3em 3em 3em;
+    padding: 2em 3em 2em 3em;
+    border-radius: 50px;
+}
+
 .github{
   display: flex;
   margin: 1em 1em 1em 1em;
@@ -56,6 +64,22 @@ header{
 }
 
 .linked_in{
+  display: flex;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 2em 1em;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.twitter{
+  display: flex;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 2em 1em;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.reddit{
   display: flex;
   margin: 1em 1em 1em 1em;
   padding: 1em 1em 2em 1em;
