@@ -96,7 +96,7 @@ header{
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   border-radius: 50px;
   justify-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
   figcaption{
   justify-content: center;
