@@ -15,7 +15,9 @@ header{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-items: left;
+  padding-top: 2em;
   padding-bottom: 5em;
+  padding-left: 2em;
 }
 
 #main{
